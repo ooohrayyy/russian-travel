@@ -6,14 +6,14 @@
   margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
     padding: 92px 48px 24px;
   }
-} */
+}
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
-    padding: 92px 48px 24px;
+    padding: 88px 24px 24px;
   }
 }

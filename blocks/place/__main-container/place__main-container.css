@@ -4,3 +4,9 @@
   justify-content: space-between;
   padding-right: 40px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__main-container {
+    justify-content: flex-start;
+  }
+}
