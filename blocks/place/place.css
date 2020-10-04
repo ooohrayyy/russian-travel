@@ -24,3 +24,10 @@
     padding-bottom: 72px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    flex-direction: column;
+    max-height: 965px;
+  }
+}

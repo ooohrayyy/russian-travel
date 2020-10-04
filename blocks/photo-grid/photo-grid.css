@@ -17,3 +17,10 @@
     grid-template-columns: repeat(2, 352px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: 288px;
+    gap: 12px;
+  }
+}
