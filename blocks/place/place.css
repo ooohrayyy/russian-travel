@@ -1,0 +1,11 @@
+.place {
+  display: flex;
+  max-width: 984px;
+  max-height: 660px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}

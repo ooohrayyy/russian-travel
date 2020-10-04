@@ -51,6 +51,8 @@
 /* Импортируем блок place и его компоненты */
 
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__main-container/place__main-container.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
