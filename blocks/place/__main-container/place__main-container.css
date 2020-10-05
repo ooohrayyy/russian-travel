@@ -8,11 +8,10 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__main-container {
     justify-content: flex-start;
-    /* padding-right: 0; */
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__main-container {
     padding-right: 0;
   }
