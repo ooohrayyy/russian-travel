@@ -6,6 +6,10 @@
 
 @import url(../resources/fonts/fonts.css);
 
+/* Импортируем блок link-animated и его компоненты */
+
+@import url(../blocks/link-animated/link-animated.css);
+
 /* Импортируем корневой блок root */
 
 @import url(../blocks/root/root.css);
