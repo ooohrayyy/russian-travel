@@ -4,7 +4,11 @@
 
 **Ссылка**
 
+<<<<<<< HEAD
 * [Ссылка на страницу проекта на GitHub Pages](https://ooohrayyy.github.io/russian-travel/)
+=======
+* [Ссылка на страницу проекта на GitHub Pages] (https://ooohrayyy.github.io/russian-travel/)
+>>>>>>> 6db2e1dc928a0eb56ddee64606bae21eefa70cde
 
 ## Функциональность
 
