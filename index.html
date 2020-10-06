@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <!-- Привет команде код-ревью! Это было очень внезапно, сложно, но интересно. 
 Предчувствую миллион правок и надеюсь, что успею всё переделать :) Хорошего дня! -->
+
+<!-- Второй привет команде код-ревью! Постарался всё исправить и ничего не сломать. 
+Кажется, кое-как работает! -->
+
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
@@ -13,18 +17,20 @@
   </head>
   <body class="root">
     <header class="header">
-      <div class="header__logo"></div>
+      <img class="header__logo" src="resources/images/header__logo.svg" alt="Карта России">
       <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_active">Ru</a>
-        <a class="header__lang-link">En</a>
+        <a class="header__lang-link header__lang-link_active" target="_blank">Ru</a>
+        <a class="header__lang-link" target="_blank">En</a>
       </div>
     </header>
     <main class="main">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="resources/images/window-view.svg" alt="Вид из окна поезда с картой дороги из Пскова в Улан-Удэ">
-        <p class="lead__caption">Ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img class="lead__image" src="resources/images/window-view.svg" alt="Вид из окна поезда с картой дороги из Пскова в Улан-Удэ">
+          <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -63,8 +69,8 @@
           </div>
           <div class="place__text-container">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link link-animated" href="https://park-kosa.ru">park-kosa.ru</a>
+              <abbr class="place__url-heading">URL</abbr>
+              <a class="place__link link-animated" href="https://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива 
             с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
@@ -80,8 +86,9 @@
           </div>
           <div class="place__text-container">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link link-animated" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+              <abbr class="place__url-heading">URL</abbr>
+              <a class="place__link link-animated" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" 
+              target="_blank">National Geographic</a>
             </div>
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — 
             Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -98,8 +105,8 @@
           </div>
           <div class="place__text-container">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link link-animated" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+              <abbr class="place__url-heading">URL</abbr>
+              <a class="place__link link-animated" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
             </div>
             <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы 
             увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым 
@@ -116,8 +123,8 @@
           </div>
           <div class="place__text-container">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link link-animated" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+              <abbr class="place__url-heading">URL</abbr>
+              <a class="place__link link-animated" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной 
             воды и одно из красивейших мест в России.</p>
@@ -133,8 +140,8 @@
           </div>
           <div class="place__text-container">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link link-animated" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+              <abbr class="place__url-heading">URL</abbr>
+              <a class="place__link link-animated" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
             </div>
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее 
             Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. 
@@ -144,20 +151,20 @@
           </div>
         </article>
       </section>
-      <section class="cover">
-        <a class="cover__overlay link-animated" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
+      <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <div class="cover__overlay"></div>
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-      </section>
+      </a>
     </main>
     <footer class="footer">
       <nav class="footer__nav">
         <ul class="footer__list">
-          <li class="footer__list-item"><a class="footer__link link-animated" href="https://yandex.ru/maps">Карты</a></li>
-          <li class="footer__list-item"><a class="footer__link link-animated" href="https://yandex.ru/pogoda">Погода</a></li>
-          <li class="footer__list-item"><a class="footer__link link-animated" href="https://rasp.yandex.ru">Расписание</a></li>
-          <li class="footer__list-item"><a class="footer__link link-animated" href="https://calendar.yandex.ru">Календарь</a></li>
-          <li class="footer__list-item"><a class="footer__link link-animated" href="https://travel.yandex.ru">Путешествия</a></li>
+          <li class="footer__list-item"><a class="footer__link link-animated" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__list-item"><a class="footer__link link-animated" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__list-item"><a class="footer__link link-animated" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list-item"><a class="footer__link link-animated" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__list-item"><a class="footer__link link-animated" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
         </ul>
       </nav>
       <address class="footer__author">&COPY; 2020. Борис Никиташов</address>
